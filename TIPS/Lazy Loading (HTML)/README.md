@@ -5,8 +5,3 @@
 ```html
 <img src="logo.png" loading="lazy" />
 ```
-
-<video width="500" height="400" controls loop muted>
-  <source src="./assets/lazyload.webm" type="video/webm">
-  Seu navegador não suporta a tag vídeo do HTML5
-</video>
