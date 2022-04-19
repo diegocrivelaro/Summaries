@@ -1,0 +1,45 @@
+body {
+  background-color: #536dfe;
+}
+
+/*-------------------------------------------*/
+/* Estilo aplicado apenas para o IE11  */
+_:lang(x)::-ms-backdrop,
+body {
+  background-color: #ff4081;
+}
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+/* Estilo aplicado apenas para o Edge  */
+_:-ms-lang(x)::backdrop,
+body {
+  background-color: #ff5252;
+}
+_:-ms-lang(x)::backdrop,
+h1 {
+  color: #fff;
+}
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+/* Estilo aplicado apenas para o FireFox  */
+@-moz-document url-prefix() {
+  body {
+    background-color: #7c4dff;
+  }
+}
+
+_:dir(x),
+h1 {
+  color: #fff;
+}
+/*-------------------------------------------*/
+
+/*-------------------------------------------*/
+/* Estilo aplicado apenas para o Safari */
+_:lang(X)::x-,
+body {
+  background-color: #64ffda;
+}
+/*-------------------------------------------*/
